@@ -1,0 +1,45 @@
+body{
+    /* margin to the left for the whole page */
+    margin-left: 10vw;
+}
+img{
+    /* defining picture size and design on the borders */
+    margin-top: 5vh;
+    border-radius: 8px;
+    width: 40vw;
+    height: auto;
+    max-height: 40vh;
+}
+label, p{
+    /* font and size for label and p tags */
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8vw;
+}
+button{
+    /* font and size for text inside button */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.4vw;
+}
+button {
+    /* default button design */
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    /* when user hovers on the button then background and text colors changes */
+    background-color: black; /* Green */
+    color: white;
+  }
+
+.custColor{
+    /* organizing space around buttons */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 3vw;
+}
+label{
+    /* space between label and inputs */
+    margin-right: 3vw;
+}
